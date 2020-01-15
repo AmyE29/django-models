@@ -1,0 +1,12 @@
+
+{% extends 'base.html' %}
+{% block content %}
+    {% for flavor in all_flavors %}
+    <div class = "flavor-entry">
+        <h2><a href="{% url 'flavors_details' flavor.pk %}">{{ flavor.name }}</a></h2>
+        <!-- <p>{{ flavor.description }}</p> -->
+    </div>
+    {% endfor %}
+{% endblock content%}
+
+

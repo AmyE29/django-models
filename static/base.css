@@ -1,0 +1,15 @@
+
+body{
+    background-color: lemonchiffon;
+    background-image:  url("./images/icecream2.png");
+}
+p{
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: indigo
+}
+h2{
+    font-size: 22pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
