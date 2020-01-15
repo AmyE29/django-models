@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="{% static 'base.css' %}">
+    <title>Flavors</title>
+  </head>
+  <body>
+    <header>
+      <h1><a href="{% url 'home' %}">Ice Cream Flavors<a></h1>
+    </header>
+    <div>
+      {% block content %}
+      {% endblock content %}
+    </div>
+  </body>
+</html>
